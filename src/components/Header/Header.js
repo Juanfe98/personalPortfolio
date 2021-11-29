@@ -10,7 +10,7 @@ import {
   Span
 } from './HeaderStyles';
 import { NavbarItem } from './atoms/NavbarItem';
-import { SocialIcon } from './atoms/SocialIcon';
+import { SocialIcon } from '../global/SocialIcon';
 
 
 const Header = () =>  (

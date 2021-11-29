@@ -1,5 +1,5 @@
 import React from 'react'
-import {SocialIcons} from '../HeaderStyles';
+import {SocialIcons} from '../Header/HeaderStyles';
 
 export const SocialIcon = ({redirectTo, Icon, iconSize="3rem"}) => {
   return (
