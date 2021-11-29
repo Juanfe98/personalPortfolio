@@ -16,7 +16,7 @@ import { SocialIcon } from '../global/SocialIcon';
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="https://google.com">
+      <Link href="#">
         <a style={{display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white', marginBottom: 15, columnGap: 20}}>
           <FaMountain size="3rem" />
           <Span>JFMP</Span>
