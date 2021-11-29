@@ -1,3 +1,4 @@
+import { About } from '../components/About/About';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
@@ -13,6 +14,7 @@ const Home = () => {
         <BgAnimation />
       </Section>
       <Projects />
+      <About />
       <Technologies />
     </Layout>
   );

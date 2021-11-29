@@ -1,18 +1,18 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcon } from '../global/SocialIcon';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
+          <LinkTitle>Call Me</LinkTitle>
           <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+          <LinkTitle>Email Me</LinkTitle>
           <LinkItem href="mailto:juanmontana1398@gmail.com">juanmontana1398@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
