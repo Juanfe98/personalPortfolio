@@ -48,14 +48,6 @@ export const HeaderThree = styled.h3`
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
-export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
-`;
-
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;

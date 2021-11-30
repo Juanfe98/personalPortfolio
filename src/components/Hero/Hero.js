@@ -25,6 +25,7 @@ const Hero = (props) => (
       <SectionText size="32px">
         I'm a <TypingAnimation phrases={phrases}/>
       </SectionText>
+      <Button onClick={props.handleClick}>Download CV</Button>
     </LeftSection>
   </Section>
 );

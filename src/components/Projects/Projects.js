@@ -5,14 +5,13 @@ import {
   ExternalLinks, 
   GridContainer, 
   HeaderThree, 
-  Hr, 
   Tag, 
   TagList, 
   TitleContent, 
   UtilityList, 
   Img 
 } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, Hr } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
