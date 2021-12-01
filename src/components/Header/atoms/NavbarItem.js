@@ -5,7 +5,7 @@ import { NavLink } from '../HeaderStyles';
 export const NavbarItem = ({redirectTo, name}) => {
   return (
     <>
-     <li>
+     <li style={{textAlign: 'center'}}>
         <Link href={redirectTo}>
           <NavLink>{name}</NavLink>
         </Link>
