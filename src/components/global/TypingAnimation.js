@@ -31,7 +31,7 @@ export const TypingAnimation = ({
       // to prevent memory leaks
       typed.current.destroy();
     };
-  }, []);
+  }, [phrases]);
 
   return <span ref={el} />;
 };
