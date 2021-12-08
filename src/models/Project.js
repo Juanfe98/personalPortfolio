@@ -22,10 +22,21 @@ const projectSchema = new Schema(
     images: [{
       type: String,
     }],
+    tags: [
+      {type: String,}
+    ],
     i18n: { 
       es: {}, 
       en: {} 
     },
+    link: {
+      type: 'string',
+      default: ''
+    },
+    code: {
+      type: 'string',
+      default: ''
+    }
   }, 
   { 
     timestamps: true,

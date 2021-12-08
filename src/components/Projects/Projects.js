@@ -13,26 +13,22 @@ import {
   Img 
 } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle, Hr } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
 
-
-const Projects = () => {
-  
-  var {t} = useTranslation("portfolio");
-  
+const Projects = ({projects}) => {  
+  const {lang, t} = useTranslation("portfolio");
   return ( 
     <Section noPadding id="projects">
       <SectionDivider />
         <SectionTitle main>{t`projects`}</SectionTitle>
         <GridContainer>
-          {projects.map(({id, image,title,description, tags, source, visit}) => 
-            <BlogCard key={id}>
-              <Img src={image} />
+          {projects.map(({_id, mainImage, tags, code, link, i18n}) => 
+            <BlogCard key={_id}>
+              <Img src={mainImage} />
               <TitleContent>
-                <HeaderThree title>{title}</HeaderThree>
+                <HeaderThree title>{i18n[lang].name}</HeaderThree>
                 <Hr />
               </TitleContent>
-              <CardInfo>{description}</CardInfo>
+              <CardInfo>{i18n[lang].detail}</CardInfo>
               <div>
                 <TitleContent>Stack</TitleContent>
                 <TagList>
@@ -42,8 +38,8 @@ const Projects = () => {
                 </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit}>Code</ExternalLinks>
-                <ExternalLinks href={source}>Source</ExternalLinks>
+                <ExternalLinks href={link}>Demo</ExternalLinks>
+                <ExternalLinks href={code}>Source</ExternalLinks>
               </UtilityList>
             </BlogCard>
           )}
