@@ -1,24 +1,29 @@
 import React from 'react';
+import useTranslation from 'next-translate/useTranslation';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcon } from '../global/SocialIcon';
+import {capitalizeEachWord} from '../../helpers/functions';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
+  
+  const {t} = useTranslation("portfolio");
+
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call Me</LinkTitle>
+          <LinkTitle>{capitalizeEachWord(t`call_me`)}</LinkTitle>
           <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email Me</LinkTitle>
+          <LinkTitle>{t`send_me_email`}</LinkTitle>
           <LinkItem href="mailto:juanmontana1398@gmail.com">juanmontana1398@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Writing code to make live simpler</Slogan>
+          <Slogan>{t`slogan_text`} - Juan Felipe Montaña Perdomo</Slogan>
         </CompanyContainer>
           <SocialIcon 
             Icon={AiFillGithub} 
