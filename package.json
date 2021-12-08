@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "mongoose": "^6.1.0",
     "next": "10.2.3",
     "next-translate": "^1.2.0",
     "react": "17.0.2",
