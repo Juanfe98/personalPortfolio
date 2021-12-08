@@ -9,5 +9,11 @@
   "freelancer": "Freelancer",
   "download cv": "Download CV",
   "welcome": "Welcome",
-  "my_portfolio": "My personal portfolio"
+  "my_portfolio": "My personal portfolio",
+  "tech_desc": "Motivated fullstack developer with a technology computer bachelor degree and 4 years of experience in software development.",
+  "personal_desc": "I like to play soccer and exercise, travel and learn about new cultures. I enjoy going to the movies and watching movies of different genres. I am motivated to study and learn new things.",
+  "technologies_subtitle": " I've worked with a range of tecnolgies, in software development from mobile to web development in back-end and front-end",
+  "call_me": "call me",
+  "send_me_email": "Send me an email",
+  "slogan_text": "This should be my slongan but i dont have any ideas"
 }

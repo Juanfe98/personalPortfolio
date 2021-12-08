@@ -9,5 +9,11 @@
   "freelancer": "Freelancer",
   "download cv": "Descargar HV",
   "welcome": "Bienvenido",
-  "my_portfolio": "Mi portafolio personal"
+  "my_portfolio": "Mi portafolio personal",
+  "tech_desc": "Soy un ingeniero de sistemas muy apasionado por la programación y el desarrollo de software para web y dispositivos móviles con 4 años de experiencia creando soluciones de software.",
+  "personal_desc": "Me gusta jugar futbol y realizar ejercicio, viajar para conocer nuevas culturas. Disfruto ir a cine, ver peliculas de disitintos géneros. Me motiva estudiar y aprender cosas nuevas.",
+  "technologies_subtitle": "He trabajado con diversas tecnologías en el desarrollo de software desde el movil hasta el desarrollo web back-end y front-end.",
+  "call_me": "llamame",
+  "send_me_email": "Enviame un correo",
+  "slogan_text": "This should be my slongan but i dont have any ideas"
 }
